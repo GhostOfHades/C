@@ -1,0 +1,9 @@
+ Jimmy 1000
+ Billy 900
+ Bobby 800
+ Jill 700
+ Bill 600
+ Bob 500
+ Henry 450
+ Jack 400
+ John 300
