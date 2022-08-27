@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void question1 (void)
+void Square_table (void)
 //Write a program to generate and display a table of n and n2, for integer values of n ranging from 1 to 10.
 
 {
@@ -12,11 +12,11 @@ void question1 (void)
    }
 }
 
-void question2 (void)
-//Write a program to generate and print a table of the first 10 factorials
+void factorial_calc (int target)
+//Write a program to generate and print a table factorials until the given number
 {
     int inum,isum=1;
-   for (inum=1;inum<=10;inum++)
+   for (inum=1;inum<=target;inum++)
    {
       isum=isum*inum;
       printf("%d\t%d\n",inum, isum); 
@@ -78,8 +78,8 @@ int maximum ( int values[], int numElements)
     return maxValue;
 }
 
-void question5(void)
-//obtain numbvers and print out the largest number
+void find_max(void)
+//obtain numbers and print out the largest number
 {
      int array[10],count=0;
     for (count=0;count<10;count++);
@@ -136,7 +136,7 @@ by the first n-1 digits of the number X, and so on. Your program must check that
     printf("Output = %llu", newNum);
 }
 
-void question9 (void)
+void Palindrome_check (void)
 //test whether a string is a palindrome (same forward and back)
 {
     int number = 0, reversed = 0, temp;
@@ -159,7 +159,7 @@ void question9 (void)
 
 }
 
-void question10 (void)
+void bin_to_dec (void)
 //convert binary numbers into decimals
 {
     int binNum = 0, decNum = 0, counter = 0;
@@ -177,7 +177,7 @@ void question10 (void)
     printf("Decimal equivalent =%d", decNum);
 }
 
-void question11 (void)
+void Calc_pi (void)
 //calculate pi in a weird way
 {
     int i, n;
@@ -310,7 +310,7 @@ Therefore, the number of such indexes in the given array would be 2.*/
     printf("Found %d indexes\n", count);
 }
 
-void evalq (void)
+void matrix_sum (void)
 //solve a matrix sum equation
 {
     int matrix1[3][3],matrix2[3][3],matrixans[3][3],count=0,icount=1;
